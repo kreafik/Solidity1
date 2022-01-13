@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_feet",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_canSwim",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "Animal"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0xbd5e3ac40bbb108cf4beffb1ba9b5e6c40f5d7445bd507816b8d012d19fc4b16",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://166a23bd8f8524fcee257b7a3a12b920d0c896258832908e0dec8b253dbad479",
+				"dweb:/ipfs/QmXKqxtHNYhw8df9SeQYV7gbTb7G25TqxnufZJRxH1zPKw"
+			]
+		}
+	},
+	"version": 1
+}

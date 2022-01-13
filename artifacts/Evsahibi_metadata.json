@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_KiraBedeli",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Kiralama.sol": "Evsahibi"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Kiralama.sol": {
+			"keccak256": "0xb84da4527ba97a57ec80c0f696141a398fef87ff83b10c9273d730127bff982c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d71bef172c3624083416e93cecb3af155f902e3020e15f16fc177cc8056c67e1",
+				"dweb:/ipfs/QmZdp8iZPupY2xtzYskMKQkxtH3pCzwicEhVKQ7QBCyLgP"
+			]
+		}
+	},
+	"version": 1
+}

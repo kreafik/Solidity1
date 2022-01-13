@@ -17,7 +17,7 @@ contract Complex {
         _owners[msg.sender] = true;
     }
 
-      function isOwner(address x) public view returns (bool) {
+    function isOwner(address x) public view returns (bool) {
         return _owners[x] || _owner == msg.sender;
     }
 

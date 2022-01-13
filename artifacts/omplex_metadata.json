@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"owner func.sol": "Complex"
+			"Kiralama.sol": "omplex"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"owner func.sol": {
-			"keccak256": "0xcf2309139730de4d58f03a99cf4b5734b756de885fc471809519188774f53cbc",
+		"Kiralama.sol": {
+			"keccak256": "0xba36f5bbd848a15c51d109c66bdc5e50b8b03aabc4360348cea93e0cc8f56996",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d761459ee3f659f5ffbe83084235e3960e3c9b78e8e2918d689e596490e88855",
-				"dweb:/ipfs/QmRzDiyc3WwJrDb959uSkJbf71Cp52QpBPurum9FiFgYGu"
+				"bzz-raw://8e8d597c7c2550cbb3ebe7804ecd9b998cf3d478a2517010522c4ecc2e082e61",
+				"dweb:/ipfs/QmXC6bGySeWjo3pWCfFfV3TRh4MujUB4EUoKvw86gTedJx"
 			]
 		}
 	},

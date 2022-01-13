@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_odaSayisi",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_metreKare",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Kiralama.sol": "Kiralam"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Kiralama.sol": {
+			"keccak256": "0xe45d48a3e94ab8909ebb28e2fd4836296a3c007c275d825d072b6b626df89ada",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://400f398f547817844a52fd44442fe1b3f6b753196817f65124da4eee593a7e21",
+				"dweb:/ipfs/QmUAmcTHdtU4ayevoJSQm6ZYaa3u7H4qHFqnCeQCxJfmrj"
+			]
+		}
+	},
+	"version": 1
+}

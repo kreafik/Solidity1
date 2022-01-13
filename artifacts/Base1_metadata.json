@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "plaka",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"base-hesaplama.sol": "Base1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"base-hesaplama.sol": {
+			"keccak256": "0x92c040fd511fca927de87b08d5b2492969ab3b0561c67939b0fcf5e7b41e9725",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://da95f1ab54e39d82b64cbdd2f268d4e313c8ae735970d4f9e61b97cc9944fb33",
+				"dweb:/ipfs/QmanCd2KsWbDwhTMNegPHQsoaLdRK4gAzPEN8aundPDXsb"
+			]
+		}
+	},
+	"version": 1
+}
