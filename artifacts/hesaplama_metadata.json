@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "kenar1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "kenar2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "yukseklik",
+						"type": "uint256"
+					}
+				],
+				"name": "prizma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "alan",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hacim",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hesaplama.sol": "hesaplama"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hesaplama.sol": {
+			"keccak256": "0xe45e432d9e9a1b608cef8049c01caa09ed75949c3c6eca5782e7c848836580b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9e2bab129591525e186ba3e3fd5c332f9549d404c8d4f7e29de946d94157bb29",
+				"dweb:/ipfs/QmYgy1UYgxj9kSKMcy1wgi3y44zcgcvvJsyFdKHC8pToMT"
+			]
+		}
+	},
+	"version": 1
+}

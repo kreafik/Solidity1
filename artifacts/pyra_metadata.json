@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hesaplama.sol": "pyra"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hesaplama.sol": {
+			"keccak256": "0x67fa52305afa14a65b184dc815f4a194cd755e5b2dcf6e9db324a7db9eb12f48",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4680f710054d282813998d9675ab41f66007b7aaf637d9a493f2f56e65d302f",
+				"dweb:/ipfs/QmbTZ4bAMQjtpWGAd4eXr4D3oryJ7bkD2sRthCNruGXg47"
+			]
+		}
+	},
+	"version": 1
+}
