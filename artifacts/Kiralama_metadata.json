@@ -46,6 +46,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "_kiraZamani",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "_metreKare",
 				"outputs": [
 					{
@@ -78,6 +91,25 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_yorumlar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -141,6 +173,32 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "yorumGetir",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
+					}
+				],
+				"name": "yorumYap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -171,11 +229,11 @@
 	},
 	"sources": {
 		"Kiralama.sol": {
-			"keccak256": "0x182e6edd5477db35c680a08894a420ca7b0dd59fd6462a2076569fda43811523",
+			"keccak256": "0x36b1bc07a3bbff6c88e149851ed0ad6f7c3c2e9937f30cd79e55d78083a3c0b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a55a62281c26c3320ffe1a6445bd1dbdba3f065c330e4e68a290728812b1f699",
-				"dweb:/ipfs/Qmf5wMDH7sJLrM84Gx6Y63vqiYRFj2FSC7tWV14VJFktia"
+				"bzz-raw://f47b59b0cd37ad3d9010dbe620b40fdda18ca0472ef637a9ba67d3ab582f6e6e",
+				"dweb:/ipfs/QmawkrLR5Bza4f4XbnFanxH1rtqcGLjkeBEQ991TcAvWWd"
 			]
 		}
 	},

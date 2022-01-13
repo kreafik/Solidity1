@@ -10,10 +10,21 @@ contract Kiralama {
     uint public _metreKare;
     uint public _emlakciKomisyonu;
     bool public _musaitlik;
+    uint public _kiraZamani;
+    
+    string[] public _yorumlar;
+    mapping(address => bool) private _kiracilar;
+    mapping(address => bool) private _yorumYaptimi;
 
     modifier onlyOwner() {
         require(msg.sender == _owner, "Not Owner!");
         _; // Yukarısı doğru bir şekilde çalıştıysa fonkisyona devam et
+    }
+
+    modifier sadeceKiraci() {
+        require(_kiracilar[msg.sender], "kiraci degilsin");
+        require(_yorumYaptimi[msg.sender] == false, "yorum yapmissiniz");
+        _;
     }
     
     constructor(uint odaSayisi, uint metreKare, uint emlakciKomisyonu, bool musaitlik) {
@@ -39,15 +50,28 @@ contract Kiralama {
         require(_musaitlik,"ev musait degil");
         require(msg.value == toplamFiyat(),"para yanlis");
         _musaitlik = false;
+        _kiraZamani = block.timestamp;
+        _kiracilar[msg.sender] = true;
         payable(_emlakci).transfer(_emlakciKomisyonu);
         payable(_owner).transfer(address(this).balance);
     }
 
     function kiraciCikar() public onlyOwner {
+        require(block.timestamp > _kiraZamani + 100,"kiraciyi cikaramazsin");
+        _kiraZamani = 0;
         _musaitlik = true;
     }
 
-    
 
+    function yorumYap(string calldata x) public sadeceKiraci {
+        _yorumlar.push(x);
+        _yorumYaptimi[msg.sender] = true;
+    }
+
+
+    function yorumGetir() public view returns (string[] memory) {
+        return _yorumlar;
+    }
 
 }
+ 
