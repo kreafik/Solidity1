@@ -16,6 +16,11 @@
 						"internalType": "string",
 						"name": "symbol",
 						"type": "string"
+					},
+					{
+						"internalType": "address[2]",
+						"name": "adresler",
+						"type": "address[2]"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -70,6 +75,44 @@
 				],
 				"name": "Transfer",
 				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "_mesaj",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "_musteri",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
@@ -139,6 +182,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -202,11 +258,18 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
 					}
 				],
+				"name": "mesajYaz",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "mint",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -399,11 +462,11 @@
 			]
 		},
 		"enactvia/CJ.sol": {
-			"keccak256": "0x49d2198210886de868a4507aacfa7431b3159f755a3527c54ee7c554c394ff67",
+			"keccak256": "0x8efd2cb2ea42a3bce66302e9dc43f07fd947dc1b04d3bfaf33d73b5fef9eaf62",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e1e3187d6f778066656841481cc3e53100bbd45e0fcf7daf5922d696a9f3dac7",
-				"dweb:/ipfs/QmXHL9DeAVEqJMaq5EMbxqogUALAqZvyvd4GvRg2JBdmfH"
+				"bzz-raw://77702bcd96e0a14ade93cf488de5077c88fa2def59e23ca041720071689b92f6",
+				"dweb:/ipfs/QmbH74KDHXv73s9SQeyoY2Mko4JC1ZDMNt1BD9v8HAvdHf"
 			]
 		}
 	},
